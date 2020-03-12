@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgm"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F7CC09"
+            android:layout_marginTop="50dp"
+            android:hint="Name"
+            android:textColorHint="#F7CC09"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            android:id="@+id/name"/>
+
+        <EditText
+            android:id="@+id/PhoneNum"
+            android:layout_width="match_parent"
+            android:textColorHint="#F7CC09"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:textColor="#F7CC09"
+            android:textSize="24dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/State"
+            android:textColor="#F7CC09"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="#F7CC09"
+
+            android:layout_height="wrap_content"
+            android:hint="State"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/PhoneNum"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="match_parent"
+            android:textColorHint="#F7CC09"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Address"
+            android:textSize="24dp"
+            android:textColor="#F7CC09"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/State"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <EditText
+            android:id="@+id/Product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:textColorHint="#F7CC09"
+            android:textColor="#F7CC09"
+            android:textSize="24dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Address"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/Category"
+                android:layout_marginLeft="10dp"
+                android:textColorHint="#106772"
+                android:layout_width="300dp"
+                android:textColor="#F7CC09"
+                android:layout_height="wrap_content"
+                android:hint="Category"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Product"
+                app:layout_constraintTop_toTopOf="parent"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner1"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Description"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="24dp"
+            android:textColor="#F7CC09"
+            android:textColorHint="#F7CC09"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Category"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <EditText
+            android:id="@+id/Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F7CC09"
+            android:layout_marginLeft="10dp"
+            android:hint="Product Price"
+            android:textColorHint="#F7CC09"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Description"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="24dp"
+            android:background="@drawable/orange"
+            android:id="@+id/SelectImage"
+            android:text="Select Photos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Price"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/Image"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_height="400dp" />
+
+        <Button
+            android:id="@+id/Go"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Go"
+            android:background="@drawable/go"
+            android:textSize="24dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="GoToCart"
+            android:textSize="24dp"
+            android:background="@drawable/orange"
+            android:id="@+id/GotoCard"/>
+
+
+    </LinearLayout>
+</ScrollView>

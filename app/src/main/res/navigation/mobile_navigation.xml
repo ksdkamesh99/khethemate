@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.kheetemate.ui.home.HomeFragment"
+        android:label="Farmers"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.example.kheetemate.Main2Activity"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+
+    <activity
+        android:id="@+id/mainActivity3"
+        android:name="com.example.kheetemate.MainActivity2"
+        android:label="activity_main3"
+        tools:layout="@layout/activity_main3" />
+    <activity
+        android:id="@+id/Bot"
+        android:name="com.example.kheetemate.AiBotActivity"
+        android:label="Chat_Bot"
+        tools:layout="@layout/activity_ai_bot"/>
+    <activity
+        android:id="@+id/mainActivity7"
+        android:name="com.example.kheetemate.AiBotActivity"
+        android:label="Chat_Bot"
+        tools:layout="@layout/activity_ai_bot"/>
+    <activity
+        android:id="@+id/mainActivity8"
+        android:name="com.example.kheetemate.AiBotActivity"
+        android:label="Chat_Bot"
+        tools:layout="@layout/activity_ai_bot"/>
+</navigation>

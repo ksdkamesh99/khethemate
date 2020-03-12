@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backs"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Description1"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/RetrievedImage"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"/>
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_below="@+id/RetrievedImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Name   "
+                android:textColor="#D81B60"
+                android:textSize="24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Name"
+                android:layout_alignParentRight="true"
+                android:text="Data:   "
+                android:textColor="#000DFB"
+                android:textSize="24dp" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r2"
+            android:layout_below="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Phone Number"
+                android:textColor="#D81B60"
+                android:textSize="24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Phone"
+                android:layout_alignParentRight="true"
+                android:text="Data:   "
+                android:textColor="#000DFB"
+                android:textSize="24dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r3"
+            android:layout_below="@+id/r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Address  "
+                android:textColor="#D81B60"
+                android:textSize="24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Adress"
+
+                android:layout_alignParentRight="true"
+                android:text="Data:   "
+                android:textColor="#000DFB"
+                android:textSize="24dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r4"
+            android:layout_below="@+id/r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="District"
+                android:textColor="#D81B60"
+                android:textSize="24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/District"
+                android:layout_alignParentRight="true"
+                android:text="Data:   "
+                android:textColor="#000DFB"
+                android:textSize="24dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r5"
+            android:layout_below="@+id/r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="PIN CODE "
+                android:textColor="#D81B60"
+                android:textSize="24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pin"
+                android:layout_alignParentRight="true"
+                android:text="Data:   "
+                android:textColor="#000DFB"
+                android:textSize="24dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r6"
+            android:layout_below="@+id/r5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Data:   "
+                android:textColor="#000DFB"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="CITY"
+                android:textColor="#D81B60"
+                android:textSize="24dp" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r7"
+            android:layout_below="@+id/r6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="State"
+                android:textColor="#D81B60"
+                android:textSize="24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/State"
+                android:layout_alignParentRight="true"
+                android:text="Data:   "
+                android:textColor="#000DFB"
+                android:textSize="24dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r8"
+            android:layout_below="@+id/r7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Adhar No."
+                android:textColor="#D81B60"
+                android:textSize="24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/adhar"
+                android:layout_alignParentRight="true"
+                android:text="Data:   "
+                android:textColor="#000DFB"
+                android:textSize="24dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r9"
+            android:layout_below="@+id/r8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="UPID(Optional) "
+                android:textColor="#D81B60"
+                android:textSize="24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/upid"
+                android:layout_alignParentRight="true"
+                android:text="Data:   "
+                android:textColor="#000DFB"
+                android:textSize="24dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="otp section"
+                android:layout_marginTop="10dp"
+                android:id="@+id/otp"
+                android:textSize="25dp"
+                android:background="@drawable/datas"
+                android:layout_below="@+id/upid"
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

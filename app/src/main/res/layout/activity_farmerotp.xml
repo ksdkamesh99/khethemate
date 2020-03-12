@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mobile"
+    tools:context=".farmerotp">
+
+
+    <RelativeLayout
+        android:id="@+id/rellay0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/image_icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="100dp"
+
+            android:src="@drawable/farmer1" />
+        <TextView
+            android:id="@+id/sec_txt"
+            android:layout_below="@id/image_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="cursive"
+            android:layout_centerHorizontal="true"
+
+            android:text="Welcome To Farmers portal"
+            android:textStyle="bold"
+            android:textColor="#F4511E"
+            android:textSize="38dp" />
+
+        <RelativeLayout
+            android:id="@+id/rellay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sec_txt"
+            android:layout_marginTop="5dp">
+
+
+            <LinearLayout
+                android:id="@+id/linlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_gravity="center"
+                        android:text="Please confirm your mobile number"
+
+                        android:textColor="#C22727"
+                        android:textSize="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+
+                        android:orientation="horizontal">
+
+
+
+                        <EditText
+                            android:id="@+id/editTextMobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="10dp"
+                            android:digits="0123456789"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="phone|number"
+                            android:maxLength="10"
+                            android:textSize="30dp"
+                            android:paddingLeft="15dp"
+                            android:textColorHint="#2C2828"
+                            android:paddingRight="15dp"
+                            android:textColor="#2C2828" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonContinue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                 android:background="@drawable/pink"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="#ffffff"
+                android:text="Join Now"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rellay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/signup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="sans-serif"
+            android:text="Already Account"
+            android:textAllCaps="true"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#fff"
+            android:fontFamily="sans-serif"
+            android:text="Forgot Password"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+</RelativeLayout>

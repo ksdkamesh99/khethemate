@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_1"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/mainActivity4"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Buy" />
+        <item
+            android:id="@+id/mainActivity5"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/Bot"
+            android:icon="@drawable/microphone_control"
+            android:title="Chat With Us"/>
+        <item
+            android:id="@+id/mainActivity6"
+
+            android:title="My Orders"/>
+
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img1"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ProfileActivity">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Go"
+            app:layout_constraintTop_toTopOf="parent"
+            android:hint="Name"
+            android:textColor="#ACA5A5"
+            android:textSize="35dp"
+            android:id="@+id/name"/>
+
+        <EditText
+            android:id="@+id/PhoneNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:fontFamily="cursive"
+            android:textColor="#ACA5A5"
+            android:textSize="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/address1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:fontFamily="cursive"
+            android:textSize="35dp"
+            android:textColor="#ACA5A5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/PhoneNum"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <EditText
+            android:id="@+id/district1"
+            android:layout_width="match_parent"
+            android:fontFamily="cursive"
+            android:layout_height="wrap_content"
+            android:hint="District"
+            android:textSize="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/State"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <EditText
+            android:id="@+id/pin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pin code"
+            android:fontFamily="cursive"
+            android:textColor="#ACA5A5"
+            android:textSize="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/district1"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <EditText
+            android:id="@+id/city1"
+            android:layout_width="match_parent"
+            android:fontFamily="cursive"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:textSize="35dp"
+            android:textColor="#ACA5A5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/pin1"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+
+        <EditText
+            android:id="@+id/state1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="State"
+            android:textSize="35dp"
+            android:fontFamily="cursive"
+            android:textColor="#ACA5A5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/city1"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <EditText
+            android:id="@+id/adhar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adhar Num"
+            android:textSize="35dp"
+            android:fontFamily="cursive"
+            android:textColor="#ACA5A5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/state1"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <EditText
+            android:id="@+id/upid1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="UPID"
+            android:textSize="35dp"
+            android:textColor="#ACA5A5"
+            android:fontFamily="cursive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/adhar1"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <Button
+            android:id="@+id/Go"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Go"
+            android:background="#EEABAB"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+</ScrollView>

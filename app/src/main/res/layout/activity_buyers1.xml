@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/leaves"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Buyers1"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/RiceButt"
+
+            android:adjustViewBounds="true"
+            android:src="@drawable/ricg"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/RiceText"
+            android:text="      Rice"
+            android:layout_marginLeft="100dp"
+            android:textSize="30dp"
+            android:textColor="#B9A23E"
+            android:textStyle="italic"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/PaddyButt"
+            android:src="@drawable/paddyy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/PaddyText"
+            android:text="     Paddy"
+            android:layout_marginLeft="100dp"
+            android:textSize="30dp"
+            android:textColor="#B9A23E"
+            android:textStyle="italic"/>
+
+        <ImageButton
+            android:id="@+id/WheatButt"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/wheat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/WheatText"
+            android:text="     Wheat"
+            android:textColor="#B9A23E"
+            android:layout_marginLeft="100dp"
+            android:textSize="30dp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+</ScrollView>

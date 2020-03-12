@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation1"
+    app:startDestination="@+id/nav_home_1">
+
+    <fragment
+        android:id="@+id/nav_home_1"
+        android:name="com.example.kheetemate.ui.home.HomeCostumerFragment"
+        android:label="Costumers"
+        tools:layout="@layout/activity_home_costumer_fragment" />
+
+    <activity
+        android:id="@+id/mainActivity4"
+        android:name="com.example.kheetemate.CardView"
+        android:label="activity_card_view"
+        tools:layout="@layout/activity_card_view" />
+
+    <activity
+        android:id="@+id/mainActivity5"
+        android:name="com.example.kheetemate.MainActivity2"
+        android:label="activity_main3"
+        tools:layout="@layout/activity_main3" />
+    <activity
+        android:id="@+id/Bot"
+        android:name="com.example.kheetemate.AiBotActivity"
+        android:label="Chat_Bot"
+        tools:layout="@layout/activity_ai_bot"/>
+    <activity
+        android:id="@+id/mainActivity6"
+        android:name="com.example.kheetemate.Myordercostumer"
+        android:label="activity_main3"
+        tools:layout="@layout/activity_myordercostumer" />
+
+</navigation>

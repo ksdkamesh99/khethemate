@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+  android:background="@drawable/mapping"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout">
+    <TextView
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call To Farmer"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textEnd"
+        android:textColor="#1C626B" />
+    <TextView
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="  Farmer Name:"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#DB1F63" />
+
+    <TextView
+        android:id="@+id/product"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Product Details:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#DB1F63" />
+
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Quantity"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#DB1F63" />
+
+    <TextView
+        android:id="@+id/pricetotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Total Price:"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#DB1F63" />
+
+    <TextView
+        android:id="@+id/directions"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text=" Directions To Google Maps->"
+        android:textColor="@color/green" />
+
+</LinearLayout>

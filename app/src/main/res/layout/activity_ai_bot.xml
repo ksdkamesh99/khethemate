@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yoy"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/btnSpeak"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/micer"
+            android:cropToPadding="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" Tap_On_MIC "
+            android:background="@drawable/bg"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR QUERY->"
+            android:layout_marginLeft="10dp"
+            android:textColor="#EE3D30"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtSpeechInput"
+            android:layout_below="@+id/btnSpeak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#1A5E1D"
+            android:textSize="25dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="cursive" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESPONSE->"
+            android:layout_marginTop="15sp"
+            android:textColor="#E6392C"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:id="@+id/outputTex"
+            android:layout_below="@+id/txtSpeechInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#1A5E1D"
+            android:textSize="26dp"
+            android:fontFamily="cursive" />
+    </LinearLayout>
+
+
+</LinearLayout>

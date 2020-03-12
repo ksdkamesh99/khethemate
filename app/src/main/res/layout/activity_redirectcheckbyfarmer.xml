@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanched_almond"
+    tools:context=".Redirectcheckbyfarmer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Your Order Request is Successfully received and kept for Farmer Acceptance\n We will be Notifying you When your order is Confirmed" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Upto Then If you Want to Explore " />
+
+        <TextView
+            android:id="@+id/homeclick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/blue_violet"
+            android:text="Click Here To Home" />
+
+        <Button
+            android:id="@+id/doe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go To Payment Gateway" />
+    </LinearLayout>
+
+</RelativeLayout>

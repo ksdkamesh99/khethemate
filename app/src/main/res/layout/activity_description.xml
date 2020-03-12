@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/greyyy"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Description"
+        android:background="@drawable/greyyy"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/sym_action_call"
+            android:layout_marginLeft="300dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/RetrievedImage"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CATEGORY"
+            android:text="    Category Name:   "
+            android:textSize="24dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#00ACC1"
+            android:background="@drawable/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/RetrievedImage"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/PRODUCT"
+            android:text="   Product Name:   "
+            android:textColor="#00ACC1"
+            android:textSize="24dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/CATEGORY"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DESCRIPTION"
+            android:textColor="#00ACC1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/red"
+            android:text="   Product Description:   "
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/PRODUCT"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PRICE"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/red"
+            android:text="    Price:   " android:layout_marginLeft="5dp"
+            android:textColor="#00ACC1"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/DESCRIPTION"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ADDRESS"
+            android:text="   Address:   "
+            android:textSize="24dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#00ACC1"
+            android:background="@drawable/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/PRICE"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/NAME"
+            android:textColor="#00ACC1"
+            android:text="   farmer Name:   "
+            android:layout_marginTop="10dp"
+            android:background="@drawable/red"
+            android:textSize="24dp"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ADDRESS"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PHONENUM"
+            android:text="    Phone Number:   "
+            android:textSize="24dp"
+
+            android:layout_marginLeft="5dp"
+            android:textColor="#00ACC1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/NAME"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/proceed"
+            android:layout_width="match_parent"
+            android:background="@color/green"
+            android:layout_height="wrap_content"
+            android:text="Proceed" />
+
+        <Button
+            android:id="@+id/goback"
+            android:layout_width="match_parent"
+            android:background="@color/red"
+            android:layout_height="wrap_content"
+            android:text="Go Back" />
+
+    </LinearLayout>
+</ScrollView>

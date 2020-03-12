@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/convey"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_home_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:id="@+id/ImgButt"
+             android:src="@drawable/rw">
+        </ImageButton>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="   Agricultural Products"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textColor="#ffffff"
+        />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:id="@+id/ImgButt2"
+            android:src="@drawable/hortttt">
+
+        </ImageButton>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="  Horticulture Products"
+    android:layout_marginLeft="100dp"
+    android:textColor="#ffffff"
+    />
+
+    <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/ImgButt3"
+                android:src="@drawable/orgn">
+            </ImageButton>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="100dp"
+        android:textColor="#ffffff"
+        android:text=" Organic Products"
+        />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/ImgButt4"
+                android:src="@drawable/ahn">
+            </ImageButton>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="  Animal Husbandary"
+        android:layout_marginLeft="100dp"
+        android:textColor="#ffffff"
+        />
+
+        </LinearLayout>
+
+
+
